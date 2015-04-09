@@ -17,7 +17,7 @@ mydata<-subset(mydata,Date=='1/2/2007' | Date=='2/2/2007')
 mydata[,3]<-suppressWarnings(as.numeric(as.character(mydata[,3])))
 
 #Open the PNG file with width and height as 480 each
-png(file="plot1.png", width=480, height=480, bg="transparent")
+png(file="plot1.png", width=480, height=480, bg="white")
 
 #Plot the histogram with color as red, label x (xlab), plot title (main=), set the xlimits from 0 to 8 and set X axis to label only from 0-6
 # This projects the last x axis point but wont mark the tick with label=8

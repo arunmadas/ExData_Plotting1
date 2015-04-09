@@ -28,7 +28,7 @@ mergedData<-paste(mydata[,1],mydata[,2])
 dayData<- strptime(mergedData,"%d/%m/%Y %H:%M:%S")
 
 #Open the PNG file with width and height as 480 each
-png(file="plot2.png", width=480, height=480, bg="transparent")
+png(file="plot2.png", width=480, height=480, bg="white")
 
 # Plot the line chart with time on X axis and power on y axis, type is line chart, set the x axis label to empty, y axis label, empty plot title (main=)
 # This projects the last x axis point but wont mark the tick with label=8
