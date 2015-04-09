@@ -46,7 +46,7 @@ png(file="plot4.png", width=480, height=480, bg="white")
 par(mfrow=c(2,2))
 
 #Plot1
-plot(dayData,mydata[,3],type="l",xlab="",ylab="Global Active Power (kilowatts)", main="")
+plot(dayData,mydata[,3],type="l",xlab="",ylab="Global Active Power", main="")
 
 #Plot2
 plot(dayData,mydata[,5],type="l",xlab="datetime",ylab="Voltage", main="")
